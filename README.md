@@ -1,7 +1,7 @@
 Vim Local Settings
 ==================
 
-This is a simple vim plugin, which will store session on exit,
+This is a simple Vim plugin, which will stores session on exit,
 into the `.vim/ide.session` if there is a `.vim` folder
 in the current working directory.
 
