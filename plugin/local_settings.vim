@@ -24,6 +24,6 @@ if getfsize('.vim') == 0
 
     " Загружаем ранее сохраненную сессию
     if getfsize(".vim/ide.session") >= 0 && argc() == 0
-        source .vim/ide.session
+        silent! source .vim/ide.session
     endif
 endif
